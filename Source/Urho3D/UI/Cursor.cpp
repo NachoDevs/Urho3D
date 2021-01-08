@@ -213,12 +213,11 @@ void Cursor::SetUseSystemShapes(bool enable)
     }
 }
 
-#include <algorithm>
-
 const CursorShape Cursor::GetCursorShape() const 
 {
     int n = sizeof(shapeNames) / sizeof(shapeNames[0]);
 
+    // Looking for the current CursorShape being used
     int i = 0;
     bool found = false;
     while (i < n)
