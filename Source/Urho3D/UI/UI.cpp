@@ -2037,8 +2037,8 @@ void UI::HandleBeginFrame(StringHash eventType, VariantMap& eventData)
 {
     // If have a cursor, and a drag is not going on, reset the cursor shape. Application logic that wants to apply
     // custom shapes can do it after this, but needs to do it each frame
-    if (cursor_ && dragElementsCount_ == 0)
-        cursor_->SetShape(CS_NORMAL);
+    //if (cursor_ && dragElementsCount_ == 0)
+    //    cursor_->SetShape(CS_NORMAL);
 }
 
 void UI::HandlePostUpdate(StringHash eventType, VariantMap& eventData)

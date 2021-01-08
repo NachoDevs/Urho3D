@@ -368,7 +368,7 @@ WindowDragMode Window::GetDragMode(const IntVector2& position) const
 
 void Window::SetCursorShape(WindowDragMode mode, Cursor* cursor) const
 {
-    CursorShape shape = CS_NORMAL;
+    CursorShape shape = cursor->GetCursorShape();
 
     switch (mode)
     {

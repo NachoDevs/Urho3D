@@ -48,6 +48,8 @@ enum CursorShape
     CS_REJECTDROP,
     CS_BUSY,
     CS_BUSY_ARROW,
+    CS_ACTION_MOVE,
+    
     CS_MAX_SHAPES
 };
 
@@ -122,6 +124,10 @@ public:
     /// Get current shape.
     /// @property
     const String& GetShape() const { return shape_; }
+
+    /// Get current shape.
+    /// @property
+    const CursorShape GetCursorShape() const;
 
     /// Return whether is using system default shapes.
     /// @property
