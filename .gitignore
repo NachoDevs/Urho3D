@@ -140,8 +140,8 @@ x64/
 *.bat
 *.cmake
 CMake*
-*.sln
-*.vcxproj*
+#*.sln
+#*.vcxproj*
 
 #Specific
 [Ss]ource/Samples*
