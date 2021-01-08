@@ -114,7 +114,7 @@ public:
 
         Ray ray(camera->GetScreenRay((float)screenPos.x_ / rect.Width(), (float)screenPos.y_ / rect.Height()));
         PODVector<RayQueryResult> queryResultVector;
-        RayOctreeQuery query(queryResultVector, ray, RAY_TRIANGLE_UV, M_INFINITY, DRAWABLE_GEOMETRY, DEFAULT_VIEWMASK);
+        RayOctreeQuery query(queryResultVector, ray, RAY_TRIANGLE, M_INFINITY, DRAWABLE_GEOMETRY, DEFAULT_VIEWMASK);
 
         octree->Raycast(query);
 

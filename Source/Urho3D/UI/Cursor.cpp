@@ -49,7 +49,8 @@ static const char* shapeNames[] =
     "AcceptDrop",
     "RejectDrop",
     "Busy",
-    "BusyArrow"
+    "BusyArrow",
+    "ActionMove"
 };
 
 #if !defined(__ANDROID__) && !defined(IOS) && !defined(TVOS)
@@ -210,6 +211,27 @@ void Cursor::SetUseSystemShapes(bool enable)
         // Reapply current shape
         osShapeDirty_ = true;
     }
+}
+
+#include <algorithm>
+
+const CursorShape Cursor::GetCursorShape() const 
+{
+    int n = sizeof(shapeNames) / sizeof(shapeNames[0]);
+
+    int i = 0;
+    bool found = false;
+    while (i < n)
+    {
+        if (Urho3D::String(shapeNames[i]) == shape_)
+        {
+            found = true;
+            break;
+        }
+        i++;
+    }
+
+    return found ? (CursorShape)i : CS_NORMAL;
 }
 
 void Cursor::SetShapesAttr(const VariantVector& value)

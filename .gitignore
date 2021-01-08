@@ -120,3 +120,37 @@ Thumbs.db
 # Doxygen mess from absence of 'dot' dependency
 CMakeDoxyFile.in
 CMakeDoxygenDefaults.cmake
+
+## Nacho Extra
+
+# Visual Studio
+.vs/
+.vscode/
+
+# Folders
+[Bb]in/
+[Bb]in-int/
+[Cc]make/
+[Cc]makeFiles/
+[Dd]ebug/
+[Oo]ut/
+x64/
+
+# Files
+*.bat
+*.cmake
+CMake*
+*.sln
+*.vcxproj*
+
+#Specific
+[Ss]ource/Samples*
+[Ss]ource/ThirdParty*
+[Ss]ource/Tools*
+
+*.obj
+*.log
+*.tlog
+*.pch
+*.recipe
+*.pdb
