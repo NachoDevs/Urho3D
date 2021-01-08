@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\dev\Urho3D\Urho3D-Engine\CMakeFiles\079fec78cb8ad513a12d87b6e3d328d0\tolua++-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\dev\Urho3D\Urho3D-Engine\CMakeFiles\079fec78cb8ad513a12d87b6e3d328d0\tolua++-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\dev\Urho3D\Urho3D-Engine\CMakeFiles\079fec78cb8ad513a12d87b6e3d328d0\tolua++-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\dev\Urho3D\Urho3D-Engine\CMakeFiles\079fec78cb8ad513a12d87b6e3d328d0\tolua++-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\dev\Urho3D\Urho3D-Engine\CMakeFiles\079fec78cb8ad513a12d87b6e3d328d0\tolua++-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\dev\Urho3D\Urho3D-Engine\CMakeFiles\079fec78cb8ad513a12d87b6e3d328d0\tolua++-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\dev\Urho3D\Urho3D-Engine\CMakeFiles\079fec78cb8ad513a12d87b6e3d328d0\tolua++-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\dev\Urho3D\Urho3D-Engine\CMakeFiles\f3998c573080a1bd1f962095e444e1b4\tolua++-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\dev\Urho3D\Urho3D-Engine\CMakeFiles\6f8b7dde4fc993c31b3af6cb9a723aa3\tolua++.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\dev\Urho3D\Urho3D-Engine\Source\Urho3D\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\dev\Urho3D\Urho3D-Engine\Source\Urho3D\CMakeFiles\tolua++" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{45D49840-DC0F-3E8C-B717-03EC68EBB675}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
