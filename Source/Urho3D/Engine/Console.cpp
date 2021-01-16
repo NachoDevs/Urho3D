@@ -289,7 +289,22 @@ XMLFile* Console::GetDefaultStyle() const
 
 bool Console::IsVisible() const
 {
-    return background_ && background_->IsVisible();
+    return background_ && background_->IsVisible(); }
+
+bool Console::IsAnElementOfConsole(UIElement& t_element) const
+{
+    return &t_element == background_            ||
+            t_element.IsChildOf(background_)    ||
+            &t_element == rowContainer_         ||
+            t_element.IsChildOf(rowContainer_)  ||
+            &t_element == commandLine_          ||
+            t_element.IsChildOf(commandLine_)   ||
+            &t_element == interpreters_         ||
+            t_element.IsChildOf(interpreters_)  ||
+            &t_element == lineEdit_             ||
+            t_element.IsChildOf(lineEdit_)      ||
+            &t_element == closeButton_          ||
+            t_element.IsChildOf(closeButton_);
 }
 
 unsigned Console::GetNumBufferedRows() const

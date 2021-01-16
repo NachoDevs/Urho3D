@@ -93,6 +93,10 @@ public:
     /// @property
     BorderImage* GetBackground() const { return background_; }
 
+    /// Return the parent UIElement.
+    /// @property
+    UIElement* GetUIElement() const { return commandLine_; }
+
     /// Return the line edit element.
     /// @property
     LineEdit* GetLineEdit() const { return lineEdit_; }
@@ -104,6 +108,10 @@ public:
     /// Return whether is visible.
     /// @property
     bool IsVisible() const;
+
+    /// Checks if the passed element belongs to one of the elements in the console
+    /// @property
+    bool IsAnElementOfConsole(UIElement& t_element) const;
 
     /// Return true when console is set to automatically visible when receiving an error log message.
     /// @property
