@@ -10,6 +10,9 @@
     <ClCompile Include="F:\dev\Urho3D\Urho3D-Engine\Source\Urho3D\AngelScript\GeneratedClasses.cpp">
       <Filter>Source Files\AngelScript</Filter>
     </ClCompile>
+    <ClCompile Include="F:\dev\Urho3D\Urho3D-Engine\Source\Urho3D\AngelScript\GeneratedDefaultConstructors.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
     <ClCompile Include="F:\dev\Urho3D\Urho3D-Engine\Source\Urho3D\AngelScript\GeneratedEnums.cpp">
       <Filter>Source Files\AngelScript</Filter>
     </ClCompile>
@@ -47,9 +50,6 @@
       <Filter>Source Files\AngelScript</Filter>
     </ClCompile>
     <ClCompile Include="F:\dev\Urho3D\Urho3D-Engine\Source\Urho3D\AngelScript\Generated_Members_H.cpp">
-      <Filter>Source Files\AngelScript</Filter>
-    </ClCompile>
-    <ClCompile Include="F:\dev\Urho3D\Urho3D-Engine\Source\Urho3D\AngelScript\Generated_Members_HighPriority.cpp">
       <Filter>Source Files\AngelScript</Filter>
     </ClCompile>
     <ClCompile Include="F:\dev\Urho3D\Urho3D-Engine\Source\Urho3D\AngelScript\Generated_Members_I.cpp">

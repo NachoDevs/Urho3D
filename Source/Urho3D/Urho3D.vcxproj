@@ -10166,6 +10166,20 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Precompiled.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)Precompiled.h.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
+    <ClCompile Include="F:\dev\Urho3D\Urho3D-Engine\Source\Urho3D\AngelScript\GeneratedDefaultConstructors.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Precompiled.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)Precompiled.h.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Precompiled.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)Precompiled.h.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Precompiled.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)Precompiled.h.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
     <ClCompile Include="F:\dev\Urho3D\Urho3D-Engine\Source\Urho3D\AngelScript\GeneratedEnums.cpp">
       <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Precompiled.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
@@ -10335,20 +10349,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)Precompiled.h.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
     <ClCompile Include="F:\dev\Urho3D\Urho3D-Engine\Source\Urho3D\AngelScript\Generated_Members_H.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Precompiled.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Precompiled.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)Precompiled.h.pch</PrecompiledHeaderOutputFile>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Precompiled.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Precompiled.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(IntDir)Precompiled.h.pch</PrecompiledHeaderOutputFile>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Precompiled.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Precompiled.h</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)Precompiled.h.pch</PrecompiledHeaderOutputFile>
-    </ClCompile>
-    <ClCompile Include="F:\dev\Urho3D\Urho3D-Engine\Source\Urho3D\AngelScript\Generated_Members_HighPriority.cpp">
       <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Precompiled.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Precompiled.h</PrecompiledHeaderFile>
